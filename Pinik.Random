@@ -198,7 +198,7 @@ def emran2(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
 #_________𝗨𝗣𝗗𝗔𝗧𝗘 𝗦𝗬𝗦𝗧𝗘𝗠➻➲🥰🥰        
-            header_freefb = {':authority:
+header_freefb = {':authority:
 mbasic.facebook.com
 :method:
 GET
