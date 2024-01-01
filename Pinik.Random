@@ -126,9 +126,9 @@ logo= """
 \033[1;91m<═══\033[1;41m\033[1;97m THIS NAME IS SAMIR BRAND\033[;0m\033[1;91m═══>\033[1;92m"""
 linex=('\033[1;31m══════════════════════════════════════════')   
 try:
-    key1=open("/storage/emulated/0/android8.txt",'r').read()
+    key1=open("/home/kali/android8.txt",'r').read()
 except IOError:
-    kok=open("/storage/emulated/0/android8.txt",'w')
+    kok=open("/home/kali/android8.txt",'w')
     myid=uuid.uuid4().hex[:12]
     f="GREEN-CLINING"
     key=myid+f
@@ -138,7 +138,7 @@ except IOError:
 
 a=requests.get("https://justpaste.it/anjhl").text
 b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
+key1=open("/home/kali/android8.txt",'r').read()
 key2=str(key1)  
 if key2 in b:
     pass
